@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html, body, .main{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: aquamarine;
+    background-image: url(https://plus.unsplash.com/premium_vector-1711987432489-2eef6708227f?w=352&dpr=1&h=367&auto=format&fit=crop&q=60&ixlib=rb-4.1.0);
+}
+
+
+
+.container{
+    width: 300px;
+    height: 150px;
+    background:linear-gradient(135deg, #a0c4ff, #ffc0cb, #f4a6a6, #d8a1c4);
+    position: relative;
+    top: 45%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+
+    
+}
+.text{
+    color: #bb4f70;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+/* .yesno{ */
+   
+   /* position: absolute;
+   
+   left: 0%;
+   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.637), rgba(199, 112, 145, 0.877));
+   width: 100%;
+   height: 2%;
+   /* margin-bottom: 60px; */
+   /* align-items: start;
+   justify-content: end;
+   /* transform: translate(0%,-50%); */
+   /* border-radius: 20px; */ 
+   
+
+
+
+
+    
+
+#yes{
+   
+    border-radius: 50px;
+    color: white;
+    margin-right: 200px;
+    
+}
+#no{
+    border-radius: 50px;
+    position: absolute;
+    color: white;
+    margin-left: 1px;
+    background-color: #bb4f70;
+}
+.button{
+    padding: 10px;
+    width: 50px;
+    height: auto;
+    background-color: #bb4f70;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 0px;
+    cursor: pointer;
+    
+
+}
+.imgcontainer{
+    display: flex;
+}
+
+p{
+    margin-left: 15px;
+}
+
+.img,
+.img2 {
+  opacity: 0;
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.message,
+.message2 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+/* .container {
+  background: black;
+  transition: opacity 2.5s ease;
+} */
+
+#no {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.5s ease; /* smooth movement */
+  }
+  #no:hover {
+    transform: scale(1.1);
+  }
+  .yesno {
+    display: flex;
+    justify-content: center;
+    align-items: end; /* vertical center buttons */
+    position: relative;   /* for #no absolute movement */
+    width: 100%;         /* keep container width */
+    height: 60px;         /* just enough for buttons to move */
+    margin: 0 auto;
+    top: 140%;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.637), rgba(199,112,145,0.877));
+    padding: 10px 20px;
+    margin-right: 20px;
+    transform: translate(-2%,0%);
+    gap: 50px;            /* space between YES and NO */
+}
+
+  .container {
+    text-align: center;
+    padding: 40px;
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+  }
+      
