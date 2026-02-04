@@ -19,7 +19,7 @@ html, body, .main{
     background:linear-gradient(135deg, #a0c4ff, #ffc0cb, #f4a6a6, #d8a1c4);
     position: relative;
     top: 45%;
-    left: 22%;
+    left: 30%;
     transform: translate(-50%,-50%);
     border-radius: 20px;
 
@@ -149,4 +149,5 @@ p{
   }
 
       
+
 
