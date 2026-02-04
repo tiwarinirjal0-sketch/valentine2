@@ -18,7 +18,7 @@ let noMessage = ["Are you sure? 😏",
                 ]
 let i=0;
 
-no.addEventListener("mouseenter", (e) =>{
+no.addEventListener("click", (e) =>{
     // const container = document.querySelector(".container")
     // let aftertext = document.createElement("div")
     const box = yesno.getBoundingClientRect();
@@ -152,4 +152,5 @@ yes.addEventListener("click", (e) =>{
 // no.onmouseenter = ()=>{
 //     no.style.left = Math.random() * 200 + "px";
 //     no.style.top  = Math.random() * 150 + "px";
+
 // }
